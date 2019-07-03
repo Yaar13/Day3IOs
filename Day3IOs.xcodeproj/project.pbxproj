@@ -12,6 +12,14 @@
 		5E3030BA22CC11AF005558E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3030B822CC11AF005558E9 /* Main.storyboard */; };
 		5E3030BC22CC11B1005558E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E3030BB22CC11B1005558E9 /* Assets.xcassets */; };
 		5E3030BF22CC11B1005558E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3030BD22CC11B1005558E9 /* LaunchScreen.storyboard */; };
+		5E3030CB22CC1343005558E9 /* elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E3030CA22CC1343005558E9 /* elephant.png */; };
+		5E3030CD22CC138A005558E9 /* gorilla.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E3030CC22CC138A005558E9 /* gorilla.png */; };
+		5E3030D322CC1443005558E9 /* ice cream.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E3030D222CC1443005558E9 /* ice cream.png */; };
+		5E3030D522CC2DCE005558E9 /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3030D422CC2DCE005558E9 /* firstViewController.swift */; };
+		5E3030D722CC2DE1005558E9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3030D622CC2DE1005558E9 /* SecondViewController.swift */; };
+		5E3030D922CC2DF3005558E9 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3030D822CC2DF3005558E9 /* ThirdViewController.swift */; };
+		5E3030DB22CC2E05005558E9 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3030DA22CC2E05005558E9 /* FourthViewController.swift */; };
+		5E3030DD22CC2E15005558E9 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3030DC22CC2E15005558E9 /* FifthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		5E3030BB22CC11B1005558E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E3030BE22CC11B1005558E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E3030C022CC11B1005558E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E3030CA22CC1343005558E9 /* elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elephant.png; sourceTree = "<group>"; };
+		5E3030CC22CC138A005558E9 /* gorilla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gorilla.png; sourceTree = "<group>"; };
+		5E3030D222CC1443005558E9 /* ice cream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ice cream.png"; sourceTree = "<group>"; };
+		5E3030D422CC2DCE005558E9 /* firstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
+		5E3030D622CC2DE1005558E9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5E3030D822CC2DF3005558E9 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		5E3030DA22CC2E05005558E9 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		5E3030DC22CC2E15005558E9 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,38 @@
 		5E3030B322CC11AF005558E9 /* Day3IOs */ = {
 			isa = PBXGroup;
 			children = (
+				5E3030C822CC128B005558E9 /* New Group */,
 				5E3030B422CC11AF005558E9 /* AppDelegate.swift */,
 				5E3030B622CC11AF005558E9 /* ViewController.swift */,
+				5E3030DC22CC2E15005558E9 /* FifthViewController.swift */,
+				5E3030DA22CC2E05005558E9 /* FourthViewController.swift */,
+				5E3030D822CC2DF3005558E9 /* ThirdViewController.swift */,
+				5E3030D622CC2DE1005558E9 /* SecondViewController.swift */,
+				5E3030D422CC2DCE005558E9 /* firstViewController.swift */,
 				5E3030B822CC11AF005558E9 /* Main.storyboard */,
 				5E3030BB22CC11B1005558E9 /* Assets.xcassets */,
 				5E3030BD22CC11B1005558E9 /* LaunchScreen.storyboard */,
 				5E3030C022CC11B1005558E9 /* Info.plist */,
 			);
 			path = Day3IOs;
+			sourceTree = "<group>";
+		};
+		5E3030C822CC128B005558E9 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				5E3030C922CC128F005558E9 /* Images */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		5E3030C922CC128F005558E9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5E3030D222CC1443005558E9 /* ice cream.png */,
+				5E3030CA22CC1343005558E9 /* elephant.png */,
+				5E3030CC22CC138A005558E9 /* gorilla.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +162,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E3030CB22CC1343005558E9 /* elephant.png in Resources */,
 				5E3030BF22CC11B1005558E9 /* LaunchScreen.storyboard in Resources */,
 				5E3030BC22CC11B1005558E9 /* Assets.xcassets in Resources */,
+				5E3030CD22CC138A005558E9 /* gorilla.png in Resources */,
 				5E3030BA22CC11AF005558E9 /* Main.storyboard in Resources */,
+				5E3030D322CC1443005558E9 /* ice cream.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E3030DB22CC2E05005558E9 /* FourthViewController.swift in Sources */,
+				5E3030D722CC2DE1005558E9 /* SecondViewController.swift in Sources */,
 				5E3030B722CC11AF005558E9 /* ViewController.swift in Sources */,
+				5E3030D922CC2DF3005558E9 /* ThirdViewController.swift in Sources */,
 				5E3030B522CC11AF005558E9 /* AppDelegate.swift in Sources */,
+				5E3030D522CC2DCE005558E9 /* firstViewController.swift in Sources */,
+				5E3030DD22CC2E15005558E9 /* FifthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
